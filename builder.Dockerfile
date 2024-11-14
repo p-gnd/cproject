@@ -35,6 +35,7 @@ ENV LANG='en_US.UTF-8' LANGUAGE='en_US:en' LC_ALL='en_US.UTF-8'
 RUN echo 'en_US.UTF-8 UTF-8' > /etc/locale.gen && /usr/sbin/locale-gen
 RUN echo "alias ll='ls -laGFh'" >> /root/.bashrc
 
+#  this makes all modifications that happen inside the container also visible outside of it.
 VOLUME ["/builder/mnt"]
 WORKDIR /builder/mnt
 

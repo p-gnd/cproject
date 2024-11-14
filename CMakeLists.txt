@@ -8,10 +8,7 @@ project(
     LANGUAGES C
     )
 
-set_property(
-    TARGET ${PROJECT}
-    PROPERTY C_STANDARD 11
-)
+
 
 add_library(
     ${PROJECT_NAME}
@@ -22,4 +19,9 @@ target_include_directories(
     ${PROJECT_NAME}
     PUBLIC
     include
+)
+
+set_property(
+    TARGET ${PROJECT_NAME}
+    PROPERTY C_STANDARD 11
 )

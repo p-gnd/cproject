@@ -1,0 +1,15 @@
+        -:    0:Source:../../src/dummy.c
+        -:    0:Graph:build/gcov/out/dummy.gcno
+        -:    0:Data:build/gcov/out/dummy.gcda
+        -:    0:Runs:6
+        -:    1:/**
+        -:    2: * \file dummy.c
+        -:    3: */
+        -:    4:
+        -:    5:#include "dummy/dummy.h"
+        -:    6:
+function dummy_random called 6 returned 100% blocks executed 100%
+        6:    7:uint8_t dummy_random(void)
+        -:    8:{
+        6:    9:    return 4U; // determined by fair dice roll.
+        -:   10:}

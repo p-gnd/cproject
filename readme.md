@@ -1,4 +1,4 @@
-[![Build status](https://github.com/lmapii/cproject/actions/workflows/ci.yml/badge.svg)](https://github.com/lmapii/cproject/actions/workflows/ci.yml)
+[![Build status](https://github.com/p-gnd/cproject/actions/workflows/ci.yml/badge.svg)](https://github.com/p-gnd/cproject/actions/workflows/ci.yml)
 
 # Example repository for a C development environment
 

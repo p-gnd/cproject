@@ -72,6 +72,7 @@
     bool:     UINT8
 
 :gcov:
+
   :gcovr:
     # The root directory of your source files. Defaults to ".", the current directory.
     # File names are reported relative to this root. The report_root is the default report_include.
@@ -143,6 +144,8 @@
     - module_generator
     - xml_tests_report
     - gcov
+    - raw_output_report
+
 
 # :test_runner:
 #   :cmdline_args: true
